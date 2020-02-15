@@ -37,6 +37,9 @@ void Board::displayPuzzle() {
 }
 
 int** Board::getPuzzle() {
+	/*
+		returns 'puzzle'
+	*/
 	int** arr = new int*[9];
 	for (unsigned i = 0; i < 9; i++) {
 		arr[i] = new int[9];

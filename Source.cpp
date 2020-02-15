@@ -77,6 +77,9 @@ void Board::remove(unsigned r, unsigned c) {
 }
 
 bool Board::isFinished() {
+	/*
+		Used to see if 'puzzle' has been completely filled.
+	*/
 	for (unsigned i = 0; i < 9; i++)
 		for (unsigned j = 0; j < 9; j++)
 			if (puzzle[i][j] == 0)

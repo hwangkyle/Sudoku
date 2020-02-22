@@ -89,7 +89,7 @@ bool Board::isFinished() {
 
 bool Board::solve() {
 	/*
-		Self-explanatory
+		Completes the board
 	*/
 
 	// finds next blank space
